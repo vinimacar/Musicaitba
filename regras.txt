@@ -1,0 +1,21 @@
+Cidade	        Congregação	  Dia	                                  Hora Regra
+Ituiutaba	Buritis	           quarta terça-feira 	                 19h30 dos meses ímpares
+Ituiutaba	Chico Mendes	   terceiro sábado           	         17h00 somente no mês de junho
+Ituiutaba	Central	           primeira sexta-feira	                 19h30 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Eldorado	   segunda quarta-feira      	         19h30 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Ipiranga	   primeira quinta-feira            	 19h30 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Jerônimo Mendonça  segunda sexta-feira 	                 19h30 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Marta Helena	   primeira quarta-feira                 19h30 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Natal	           segunda  terça-feira 	         19h30 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Novo Tempo II	   terceira sexta-feira          	 19h30 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Satélite Andradina terceiro domingo	                 16h00 exceto meses de Fevereiro, Junho e Outubro
+Ituiutaba	Setor Norte	   quarta sexta-feira	                 19h30 exceto meses de Fevereiro, Junho e Outubro
+Capinópolis	Central	           primeira terça-feira dos meses pares	 19h30 exceto mês de Setembro
+Capinópolis	Recanto das Acáciasprimeira terça-feira dos meses ímpares19h30 exceto mês de Setembro
+Cachoeira Dourada Central	   terceiro sábado                       17h00 de todos os meses
+Ipiaçu	        Central	           terceiro domingo                      16h00 dos meses de fevereiro e outubro	
+Gurinhatã	Central	           segundo sábado                        17h00 de todos os meses exceto em Abril, em Abril será no quarto domingo às 09h00
+Gurinhatã	Flor de Minas	   terceiro sábado 	                 17h00 dos meses de janeiro,abril,julho e outubro
+Santa Vitória	Central	           segunda  terça-feira 	         19h30 dos meses ímpares
+Santa Vitória	Chaveslândia	   quinto sábado 	                 17h00 dos meses março,agosto e novembro
+Santa Vitória	Dom Alexandre	   segundo sábado 	                 17h00 dos meses pares

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica Ituiutaba - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Música Ituiutaba</div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ensaios_locais.html">Ensaios Locais</a></li>
+                <li><a href="ensaios_regionais.html">Ensaios Regionais</a></li>
+                <li><a href="reunioes.html">Reuniões</a></li>
+                <li><a href="gem.html">GEM</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+   
+    <section class="contact">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Para dúvidas, sugestões ou informações, preencha o formulário abaixo.</p>
+        
+        <form action="enviar.php" method="post" class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Música Ituiutaba. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
