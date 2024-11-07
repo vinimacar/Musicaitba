@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musica Ituiutaba - Ensaios Locais</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="logo">Música Ituiutaba</div>
+            <div class="logo">
+                <a href="index.html">Música Ituiutaba</a>
+            </div>
             <ul class="menu">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="ensaios_locais.html">Ensaios Locais</a></li>
@@ -19,21 +23,20 @@
                 <li><a href="downloads.html">Downloads</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
-            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <button class="menu-toggle" aria-label="Abrir menu" onclick="toggleMenu()">☰</button>
         </nav>
     </header>
 
-    <section class="content">
-        <h1>Confira o calendário dos ensaios de 2025 em nossa região!</h1>
+    <main>
+        <section class="content">
+            <h1>Confira o calendário dos ensaios de 2025 em nossa região!</h1>
+            <h2>Clique no botão e veja o calendário!</h2>
 
-        <h2>Clique no botão e veja o calendário!</h2>
-
-        <a href="ensaios_locais.html">
-       <button>Acesse os Ensaios Locais</button>
-        </a>
-        <p>Informações detalhadas sobre os ensaios Locais, incluindo horários, locais e outras informações importantes.</p>
-
-        </table>
+            <a href="ensaios_locais.html">
+                <button>Acesse os Ensaios Locais</button>
+            </a>
+            <p>Informações detalhadas sobre os ensaios Locais, incluindo horários, locais e outras informações importantes.</p>
+        </section>
 
         <!-- Área para adicionar informações -->
         <div id="info-container" style="display:none;">
@@ -41,12 +44,13 @@
             <textarea id="info-text" placeholder="Digite as informações aqui..."></textarea>
             <button onclick="saveInfo()">Salvar</button>
         </div>
-    </section>
- 
+    </main>
+
     <footer>
         <p>&copy; 2024 Música Ituiutaba. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
