@@ -42,6 +42,13 @@
         }, 300000); // 300000 ms = 5 minutos
 
    // script.js
+ const dados = [
+    // Cada sub-array é uma linha com 18 colunas
+    ["Dado 1", "Dado 2", "Dado 3", "Dado 4", "Dado 5", "Dado 6", "Dado 7", "Dado 8", "Dado 9", "Dado 10", "Dado 11", "Dado 12", "Dado 13", "Dado 14", "Dado 15", "Dado 16", "Dado 17", "Dado 18"],
+    ["Dado 1", "Dado 2", "Dado 3", "Dado 4", "Dado 5", "Dado 6", "Dado 7", "Dado 8", "Dado 9", "Dado 10", "Dado 11", "Dado 12", "Dado 13", "Dado 14", "Dado 15", "Dado 16", "Dado 17", "Dado 18"],
+    ["Dado 1", "Dado 2", "Dado 3", "Dado 4", "Dado 5", "Dado 6", "Dado 7", "Dado 8", "Dado 9", "Dado 10", "Dado 11", "Dado 12", "Dado 13", "Dado 14", "Dado 15", "Dado 16", "Dado 17", "Dado 18"],
+    // ... Adicione mais linhas conforme necessário
+];
 
 // Função para mostrar a área de adicionar informações
 function addInfo(location) {
