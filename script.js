@@ -40,6 +40,31 @@
         setTimeout(function() {
             window.location.reload();
         }, 300000); // 300000 ms = 5 minutos
+
+   // script.js
+
+// Função para mostrar a área de adicionar informações
+function addInfo(location) {
+    const infoContainer = document.getElementById('info-container');
+    const locationName = document.getElementById('location-name');
+    locationName.textContent = location;  // Exibe o nome do local
+    infoContainer.style.display = 'block'; // Torna o formulário visível
+}
+
+// Função para salvar as informações
+function saveInfo() {
+    const location = document.getElementById('location-name').textContent;
+    const infoText = document.getElementById('info-text').value;
+
+    if (infoText) {
+        alert('Informações salvas para ' + location + ': ' + infoText);
+        document.getElementById('info-text').value = '';  // Limpa o campo de texto
+        document.getElementById('info-container').style.display = 'none';  // Esconde o formulário
+    } else {
+        alert('Por favor, insira as informações antes de salvar.');
+    }
+}
+
     </script>
 </body>
 </html>
