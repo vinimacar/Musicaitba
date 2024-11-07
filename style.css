@@ -211,6 +211,26 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+
+  /* Estilos quando o botão é passado com o mouse (hover) */
+        button:hover {
+            background-color: #45a049; /* Cor de fundo ao passar o mouse */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px); /* Efeito de "levitação" */
+        }
+
+        /* Estilos quando o botão é clicado (active) */
+        button:active {
+            background-color: #388e3c; /* Cor de fundo ao clicar */
+            transform: translateY(0); /* Reverte o efeito de levitação */
+        }
+
+        /* Estilos do link envolvente (se houver) */
+        a {
+            text-decoration: none; /* Remove o sublinhado do link */
+        }
+
+    
 }
 
 
