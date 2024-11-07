@@ -64,6 +64,27 @@ function saveInfo() {
         alert('Por favor, insira as informações antes de salvar.');
     }
 }
+// Função para gerar a tabela com 22 linhas e 18 colunas
+function gerarTabela() {
+    const tabela = document.getElementById("tabela").getElementsByTagName('tbody')[0];
+
+    // Loop para criar as 22 linhas
+    for (let i = 1; i <= 22; i++) {
+        const tr = document.createElement('tr'); // Criar uma linha
+
+        // Loop para criar as 18 colunas (células)
+        for (let j = 1; j <= 18; j++) {
+            const td = document.createElement('td'); // Criar uma célula
+            td.textContent = `Linha ${i} - Coluna ${j}`; // Adicionar conteúdo à célula
+            tr.appendChild(td); // Adicionar célula à linha
+        }
+
+        tabela.appendChild(tr); // Adicionar linha ao corpo da tabela
+    }
+}
+
+// Chama a função para gerar a tabela assim que a página carregar
+window.onload = gerarTabela;
 
     </script>
 </body>
