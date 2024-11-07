@@ -229,8 +229,34 @@ tr:hover {
         a {
             text-decoration: none; /* Remove o sublinhado do link */
         }
-
-    
+/* Estilos gerais da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilo para linha alternada */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para quando passar o mouse sobre as células */
+td:hover {
+    background-color: #f1f1f1;
+}
+    
+ }
 
 
