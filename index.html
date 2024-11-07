@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musica Ituiutaba - Início</title>
+    <title>Musica Ituiutaba - Ensaios Locais</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,10 +23,55 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Bem-vindo ao Música Ituiutaba</h1>
-        <p>Conectando músicos e promovendo a arte musical na nossa comunidade.</p>
-        <a href="contato.html" class="btn">Entre em Contato</a>
+    <section class="content">
+        <h1>Ensaios Locais</h1>
+        <p>Informações detalhadas sobre os ensaios Locais, incluindo horários, locais e outras informações importantes.</p>
+
+        <h2>Localidades dos Ensaios Locais</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cidade</th>
+                    <th>Congregação</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ituiutaba</td>
+                    <td>Buritis</td>
+                    <td><button onclick="addInfo('Ituiutaba - Buritis')">Adicionar Informações</button></td>
+                </tr>
+                <tr>
+                    <td>Ituiutaba</td>
+                    <td>Chico Mendes</td>
+                    <td><button onclick="addInfo('Ituiutaba - Chico Mendes')">Adicionar Informações</button></td>
+                </tr>
+                <tr>
+                    <td>Ituiutaba</td>
+                    <td>Central</td>
+                    <td><button onclick="addInfo('Ituiutaba - Central')">Adicionar Informações</button></td>
+                </tr>
+                <tr>
+                    <td>Ituiutaba</td>
+                    <td>Eldorado</td>
+                    <td><button onclick="addInfo('Ituiutaba - Eldorado')">Adicionar Informações</button></td>
+                </tr>
+                <tr>
+                    <td>Ituiutaba</td>
+                    <td>Ipiranga</td>
+                    <td><button onclick="addInfo('Ituiutaba - Ipiranga')">Adicionar Informações</button></td>
+                </tr>
+                <!-- Adicione os outros locais aqui com o mesmo formato -->
+            </tbody>
+        </table>
+
+        <!-- Área para adicionar informações -->
+        <div id="info-container" style="display:none;">
+            <h3>Adicionar Informações para: <span id="location-name"></span></h3>
+            <textarea id="info-text" placeholder="Digite as informações aqui..."></textarea>
+            <button onclick="saveInfo()">Salvar</button>
+        </div>
     </section>
 
     <footer>
@@ -36,4 +81,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
